@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(https://static.vecteezy.com/ti/fotos-gratis/p1/6929681-fundo-abstrato-bokeh-circulo-azul-claro-abstrato-azul-efeito-fundo-azul-claro-fundo-abstrato-gratis-foto.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 300px;
+    height: 150px;
+    border: 2px solid #ff000000;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#noButton {
+    position: absolute;
+}
