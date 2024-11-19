@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste</title>
+    <style>
+        /* Centraliza o botão no meio da tela */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0; /* Cor de fundo clara para contraste */
+        }
+
+        /* Estilo do botão 3D */
+        .botao-3d {
+            font-size: 24px;
+            padding: 20px 40px;
+            color: white;
+            background-color: #FF0000; /* Cor de fundo do botão */
+            border: none;
+            border-radius: 50%; /* Torna o botão redondo */
+            box-shadow: 0px 10px 0px #cc0000, 0px 15px 20px rgba(0, 0, 0, 0.3); /* Efeito de sombra para relevo */
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-align: center;
+        }
+
+        /* Efeito ao pressionar o botão */
+        .botao-3d:active {
+            box-shadow: 0px 5px 0px #cc0000, 0px 10px 20px rgba(0, 0, 0, 0.3);
+            transform: translateY(5px); /* Move o botão para baixo */
+        }
+    </style>
+</head>
+<body>
+
+    <a href="pag2.html"button class="botao-3d">Clique!</button> 
+   
+
+</body>
+</html>
